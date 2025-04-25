@@ -1,0 +1,279 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>História de Mário de Andrade</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="livro-container">
+        <div class="livro-fechado">
+            <div class="capa-couro">
+                <div class="titulo-capa">
+                    <h1>Mário de Andrade</h1>
+                </div>
+                <div class="alca-livro"></div>
+            </div>
+            <div class="paginas-simuladas">
+                <div class="pagina"></div>
+                <div class="pagina"></div>
+                <div class="pagina"></div>
+                <div class="pagina"></div>
+            </div>
+        </div>
+
+        <div class="capa-livro hidden">
+            <div class="linha-ornamental topo"></div>
+            <h1>Mário de Andrade</h1>
+            <button id="abrir-livro">Abrir Livro</button>
+            <p class="devs">Devs: Dion & Arthur</p>
+            <div class="linha-ornamental base"></div>
+        </div>
+
+        <div class="book-container hidden">
+            <div class="sidebar-toggle">
+                <div class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <div class="sidebar-content">
+                    <button class="sidebar-close">&times;</button>
+                    <h3>Navegação</h3>
+                    <div class="sidebar-nav">
+                        <button class="sidebar-tab" data-tab="livro">Livro</button>
+                        <button class="sidebar-tab" data-tab="criadores">Criadores</button>
+                        <button class="sidebar-tab" data-tab="galeria">Galeria</button>
+                        <button class="sidebar-tab" data-tab="configuracoes">Configurações</button>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="tabs">
+                <button class="tab active" data-tab="historia">História</button>
+                <button class="tab" data-tab="macunaima">Macunaíma</button>
+            </nav>
+
+            <div class="book">
+                <div class="page-container">
+                    <div class="page" id="historia-1">
+                        <div class="page-content">
+                            <h2>Infância e Formação</h2>
+                            <p>Mário Raul de Morais Andrade nasceu em 1893, em São Paulo. Desde cedo, mostrou-se apaixonado pelas artes e pela literatura. Estudou no Conservatório Dramático e Musical de São Paulo, onde se formou em piano, e logo passou a se interessar profundamente pela cultura brasileira em sua forma mais autêntica.</p>
+                            <p>Além de músico, Mário também se destacou como escritor, poeta, crítico e pesquisador de folclore. Sua curiosidade o levou a explorar o Brasil para entender suas raízes culturais, o que influenciaria toda sua produção artística e intelectual.</p>
+                        </div>
+                    </div>
+
+                    <div class="page hidden" id="historia-2">
+                        <div class="page-content">
+                            <h2>Semana de Arte Moderna e Revolução Cultural</h2>
+                            <p>Em 1922, Mário de Andrade foi um dos grandes protagonistas da Semana de Arte Moderna, evento realizado no Theatro Municipal de São Paulo. Ele apresentou ideias ousadas, rompendo com os padrões tradicionais da arte e da literatura da época.</p>
+                            <p>Sua obra "Pauliceia Desvairada", publicada nesse mesmo ano, foi uma verdadeira ruptura estética. Com linguagem experimental e versos livres, o livro retrata o caos urbano e a modernidade da cidade de São Paulo.</p>
+                        </div>
+                    </div>
+
+                    <div class="page hidden" id="historia-3">
+                        <div class="page-content">
+                            <h2>Macunaíma – O Herói Sem Nenhum Caráter</h2>
+                            <p>Em 1928, Mário lançou "Macunaíma", obra-prima do modernismo brasileiro. O livro mistura lendas indígenas, oralidade popular e elementos de diversas regiões do Brasil para criar uma narrativa única e inovadora.</p>
+                            <p>Macunaíma tornou-se um símbolo da identidade nacional fragmentada e contraditória, e a frase "herói sem nenhum caráter" virou sinônimo da complexidade cultural brasileira.</p>
+                        </div>
+                    </div>
+
+                    <div class="page hidden" id="historia-4">
+                        <div class="page-content">
+                            <h2>Estudos sobre o Brasil e a Cultura Popular</h2>
+                            <p>Durante as décadas de 1930 e 1940, Mário intensificou suas pesquisas sobre o folclore e a música popular brasileira. Viajou por vários estados do país, registrando festas, músicas e tradições, com o objetivo de construir uma identidade cultural genuinamente brasileira.</p>
+                            <p>Foi diretor do Departamento de Cultura de São Paulo e criou a Discoteca Pública Municipal, além de incentivar a preservação do patrimônio cultural. Defendia uma arte engajada, acessível e enraizada no povo.</p>
+                        </div>
+                    </div>
+
+                    <div class="page hidden" id="historia-5">
+                        <div class="page-content">
+                            <h2>Legado de Mário de Andrade</h2>
+                            <p>Mário de Andrade faleceu em 1945, mas sua obra continua viva até hoje. Ele foi um dos primeiros intelectuais a defender que o Brasil precisava valorizar sua cultura popular e indígena, e não apenas copiar os modelos europeus.</p>
+                            <p>Seus textos, ideias e projetos influenciaram profundamente a educação, a música, a literatura e a política cultural do país. É considerado um dos maiores nomes da cultura brasileira.</p>
+                        </div>
+                    </div>
+
+                    <div class="page hidden" id="historia-fim">
+                        <div class="page-content">
+                            <h2>A Eternidade de Mário de Andrade</h2>
+                            <p>Mais do que um escritor, Mário de Andrade foi um revolucionário cultural. Sua missão ia além da literatura: era redesenhar a identidade brasileira, valorizando suas raízes, sua diversidade e sua autenticidade.</p>
+                            <p>Sua obra não se limita a páginas de livros, mas ecoa nas escolas, na música, na arte e no espírito de cada brasileiro que busca compreender sua própria complexidade cultural.</p>
+                            <div class="citacao-final">
+                                <blockquote>
+                                    "Sou um tupi tangendo um alaúde"
+                                </blockquote>
+                                <p class="autor-citacao">- Mário de Andrade</p>
+                            </div>
+                            <p class="reflexao">Sua jornada nos ensina que a verdadeira identidade nacional não está em imitar, mas em celebrar nossa própria singularidade.</p>
+                        </div>
+                    </div>
+
+                    <div class="page hidden" id="criadores">
+                        <div class="page-content criadores-grid">
+                            <div class="criador-card" id="dionatan">
+                                <div class="video-overlay">
+                                    <video autoplay muted loop>
+                                        <source src="/0404.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="profile-photo">
+                                        <img src="/Dion.jpg" alt="Dionatan">
+                                    </div>
+                                </div>
+                                <div class="criador-info">
+                                    <div class="criador-quote">"Sou o retrato de quem mais gostam de calar"</div>
+                                    <div class="criador-music">
+                                        <i class="fas fa-music"></i>
+                                        <span>Write This Down</span>
+                                    </div>
+                                    <div class="social-links">
+                                        <a href="https://instagram.com/Dionatan_Futurodev" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://github.com/dion-eng" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="/cdn-cgi/l/email-protection#a4c0cdcbc0d7cdc8d2c1cdd6c5e4c3c9c5cdc88ac7cbc9"><i class="fas fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="criador-card" id="arthur">
+                                <div class="video-overlay">
+                                    <video autoplay muted loop>
+                                        <source src="/0404(1).mp4" type="video/mp4">
+                                    </video>
+                                    <div class="profile-photo">
+                                        <img src="/Japa.jpg" alt="Arthur">
+                                    </div>
+                                </div>
+                                <div class="criador-info">
+                                    <div class="criador-quote">"Eles ainda irão me ver como um idolo"</div>
+                                    <div class="criador-music">
+                                        <i class="fas fa-music"></i>
+                                        <span>Headlock</span>
+                                    </div>
+                                    <div class="social-links">
+                                        <a href="https://instagram.com/arthuralmeida_futuroclt" target="_blank"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://github.com/arthurpinheiroo" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a href="/cdn-cgi/l/email-protection#f59487819d8087949998909c919485cdb59298949c99db969a98"><i class="fas fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page hidden" id="galeria">
+                        <div class="page-content">
+                            <h2>Galeria</h2>
+                            <div class="galeria-container">
+                                <video controls>
+                                    <source src="/Mário de Andrade foi um dos principais ideólogos do movimento modernista da Semana de 1922.mp4" type="video/mp4">
+                                </video>
+                                <div class="galeria-imagens">
+                                    <div class="galeria-item">
+                                        <img src="/OIP (2).jpeg" alt="Retrato de Mário de Andrade">
+                                        <p class="legenda">Retrato de Mário de Andrade em juventude</p>
+                                    </div>
+                                    <div class="galeria-item">
+                                        <img src="/Mario 1.jpeg" alt="Mario Castelnuovo-Tedesco">
+                                        <p class="legenda">Mario Castelnuovo-Tedesco em seu estúdio</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page hidden" id="marioandrade">
+                        <div class="page-content">
+                            <h2>1922: A Revolução Modernista</h2>
+                            <p>Mário foi um dos líderes da Semana de Arte Moderna no Teatro Municipal de SP. Seu livro "Pauliceia Desvairada" (1922) introduziu versos livres e linguagem coloquial, rompendo com o parnasianismo.</p>
+                            <img src="/OIP (2).jpeg" alt="Retrato de Mário de Andrade">
+                            <p class="source">Fonte: Revista de Antropofagia (1928)</p>
+                        </div>
+                    </div>
+
+                    <div class="page hidden" id="macunaima">
+                        <div class="page-content">
+                            <h2>1928: O Herói Sem Caráter</h2>
+                            <p>"Macunaíma" (1928) é sua obra-prima. O "herói" sincrético representa o Brasil multicultural, misturando mitos indígenas, africanos e europeus. A frase "Ai, que preguiça!" tornou-se símbolo.</p>
+                            <svg width="200" height="300" class="book-cover-placeholder">
+                                <rect width="100%" height="100%" fill="#8B4513" />
+                                <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="20">Macunaíma</text>
+                                <text x="50%" y="60%" text-anchor="middle" fill="white" font-size="12">1928</text>
+                            </svg>
+                            <p class="source">Fonte: Arquivo Mário de Andrade (BN Digital)</p>
+                        </div>
+                    </div>
+
+                    <div class="page hidden" id="configuracoes">
+                        <div class="page-content config-livro">
+                            <div class="config-header">
+                                <h2>↠ Configurações</h2>
+                            </div>
+                            <div class="config-container">
+                                <div class="pagina-esquerda">
+                                    <div class="tema-selecao">
+                                        <h3>Tema de Cores</h3>
+                                        <div class="tema-botoes">
+                                            <button class="tema-btn" data-tema="classico">Clássico</button>
+                                            <button class="tema-btn" data-tema="escuro">Escuro</button>
+                                            <button class="tema-btn" data-tema="moderno">Moderno</button>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="animacao-controle">
+                                        <h3>Velocidade de Animação</h3>
+                                        <input type="range" min="0.5" max="2" step="0.5" value="1" class="animacao-slider">
+                                        <div class="slider-labels">
+                                            <span>Lento</span>
+                                            <span>Rápido</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="efeitos-controle">
+                                        <h3>Efeitos</h3>
+                                        <label class="checkbox-container">
+                                            <input type="checkbox" class="efeitos-toggle">
+                                            <span class="checkmark"></span>
+                                            Ativar Efeitos
+                                        </label>
+                                    </div>
+                                    
+                                    <div class="lofi-controle">
+                                        <h3>Música de Fundo</h3>
+                                        <label class="lofi-toggle-container">
+                                            <input type="checkbox" class="lofi-toggle">
+                                            <span class="lofi-toggle-slider"></span>
+                                            Ativar Lo-Fi
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <div class="pagina-direita">
+                                    <div class="preview-container">
+                                        <h3>Pré-visualização</h3>
+                                        <div class="preview-area">
+                                            <p>Aqui você verá as mudanças em tempo real.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="page-controls">
+                    <button class="prev-page">←</button>
+                    <button class="next-page">→</button>
+                </div>
+            </div>
+        </div>
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+    </div>
+</body>
+</html>
